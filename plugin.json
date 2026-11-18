@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "novada-mcp",
+  "version": "1.0.0",
+  "description": "Connects the agent to Novada's hosted MCP server: web search, page extraction, multi-source research, structured SERP and platform data, and account tools. Sign in with your Novada account.",
+  "author": {
+    "name": "Novada",
+    "email": "support@novada.com",
+    "url": "https://www.novada.com"
+  },
+  "homepage": "https://www.novada.com/products/novada-mcp/",
+  "repository": "https://github.com/Novada-proxy/novada-hermes-plugin",
+  "keywords": [
+    "web search",
+    "web scraping",
+    "data extraction",
+    "research",
+    "serp",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "novada": { "trust": "untrusted" }
+      }
+    }
+  }
+}
